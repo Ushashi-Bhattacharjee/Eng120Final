@@ -1,0 +1,119 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container Styles */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 900px;
+    padding: 20px;
+}
+
+/* Heading Styles */
+h1 {
+    color: #fff;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Quiz Container Styles */
+#quiz-container {
+    width: 100%;
+    max-width: 700px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    animation: slideIn 0.5s ease-out;
+}
+
+/* Animation */
+@keyframes slideIn {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Question Styles */
+#question {
+    font-size: 1.5rem;
+    color: #333; /* Dark color for better visibility */
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Options Button Styles */
+.options button {
+    padding: 12px 15px;
+    border: none;
+    border-radius: 8px;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+}
+
+.options button:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Hint Button Styles */
+#hint-button {
+    margin-top: 10px;
+    padding: 12px;
+    background: #ffcf33;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#hint-button:hover {
+    background: #e0b300;
+}
+
+/* Hint Styles */
+#hint {
+    margin-top: 15px;
+    color: #333; /* Dark color for hints */
+    font-style: italic;
+    text-align: center;
+}
+
+/* Message Styles */
+#message {
+    margin-top: 20px;
+    font-size: 1.3em;
+    color: #28a745;
+    text-align: center;
+}
+
+/* Inspiring Message */
+#inspiring-message {
+    margin-top: 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
