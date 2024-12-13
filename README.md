@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a **web-based interactive grammar quiz app** designed to help language learners improve their grammar skills. It offers **real-time feedback**, **guided hints**, and **engaging exercises**, addressing common challenges in mastering grammar rules. The app is user-friendly, inclusive, and promotes personalized learning experiences.
+This project is a **web-based interactive grammar quiz app** designed to help language learners improve their grammar skills. It offers **real-time feedback**, **guided hints** and **engaging exercises**, addressing common challenges in mastering grammar rules. The app is user-friendly, inclusive, and promotes personalized learning experiences.
 
 ---
 
