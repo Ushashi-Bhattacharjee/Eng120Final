@@ -30,5 +30,5 @@ Follow these steps to set up the project locally:
 
 1. **Clone the Repository**:
    ```bash
-   git clone <repository-url>
-   cd <repository-folder>
+   git clone <https://github.com/Ushashi-Bhattacharjee/Eng120Final/tree/main>
+   cd <Eng120Final>
